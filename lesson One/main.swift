@@ -7,5 +7,13 @@
 
 import Foundation
 
-print("Hello, World!")
+// ZADANIYE ONE
+
+var vklad: Int = 100000
+let percent: Int = 10
+var qodi: Int = 5
+
+var obshiyDoxod = (((vklad * percent) / 100 ) * qodi) + vklad
+
+print(obshiyDoxod)
 
