@@ -7,9 +7,28 @@
 
 import Foundation
 
-// ZADANIYE ONE
+// ZADANIYE DVA
+//1. Написать функцию, которая определяет, четное число или нет.
+var mass: [Int] = [1, 2, 3, 4]
+
 
 var mass: [Int] = [1, 2, 3, 4]
+
+func vichisl(){
+    for i in mass {
+        if i % 2 == 0{
+            print("\(i) - chotnoye chislo")
+        }else{
+            print("\(i) - nechetnoye chislo")
+        }
+    }
+}
+
+vichisl()
+
+//2. Написать функцию, которая определяет, делится ли число без остатка на 3.
+var newMass: [Int] = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
 
 func vichisl(){
     for i in mass {
